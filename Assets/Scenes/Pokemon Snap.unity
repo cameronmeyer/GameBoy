@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 89436014}
   - component: {fileID: 89436013}
   - component: {fileID: 89436012}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GB Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,18 +304,30 @@ PrefabInstance:
     - target: {fileID: -7534734023642610519, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: af788cd22732d5849a7e7d3469f27784, type: 2}
+      objectReference: {fileID: 2100000, guid: 9ccce2f75cdd1204d8447f489433067c, type: 2}
     - target: {fileID: -6213654693869001184, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
       propertyPath: m_Name
       value: GB Console
+      objectReference: {fileID: 0}
+    - target: {fileID: -6213654693869001184, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -3857002954835183203, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
       propertyPath: m_Name
       value: GB Screen
       objectReference: {fileID: 0}
+    - target: {fileID: -3857002954835183203, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
       propertyPath: m_Name
       value: GB Color
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1499345789403856614, guid: 44bc4477b98b35644b97a5e0048e57e9, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -357,8 +369,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2
-  m_Range: 10
+  m_Intensity: 0.19
+  m_Range: 1.92
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -414,7 +426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138613980}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.903, y: 0.705, z: -9.568}
+  m_LocalPosition: {x: -1.912, y: 1.066, z: -11.099}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -441,19 +453,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.41713938
+      value: 0.37062672
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.27948582
+      value: 0.29352877
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.13652253
+      value: -0.1022544
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.85395783
+      value: 0.87522614
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_RootOrder
@@ -461,15 +473,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 52.069
+      value: 45.137
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 36.245
+      value: 38.384
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 3.136
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44360d90abf6e5946b466cc78fdda40b, type: 3}
       propertyPath: m_LocalScale.x
